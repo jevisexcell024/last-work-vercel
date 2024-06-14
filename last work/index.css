@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+nav{
+    background-color: #333;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+nav ul {
+    display: flex;
+}
+nav ul li{
+    margin: 10px;
+}
+nav ul li a{
+    color: goldenrod;
+}
+.logo a{
+    color: #fff;
+}
+.new-bg{
+    min-height: 100vh;
+}
+.container{
+    background: url(image/scary.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.text{
+    color: #fff;
+    font-size: 60px;
+    text-align: center;
+   position: relative;
+   top: 200px;
+   right:0;
+}
+.span{
+    color: gold;
+}
+.red{
+    color: red;
+}
+.about{
+    padding-top: 40px;
+    min-height: 100vh;
+}
+h2{
+    font-size: 40px;
+    text-align: center;
+
+}
+.p{
+    width: 300px;
+}
+.flex-img{
+    width: 400px;
+    height: 400px;
+    background: url(image/rich.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.flex-container{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
